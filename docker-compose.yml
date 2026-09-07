@@ -1,0 +1,13 @@
+services:
+  calidad:
+    build: .
+    container_name: proyecto-calidad
+    working_dir: /proyecto
+    environment:
+      - PYTHONPATH=/proyecto/app
+    volumes:
+      - ./app:/proyecto/app
+      - ./tests:/proyecto/tests
+    stdin_open: true
+    tty: true
+    command: bash
