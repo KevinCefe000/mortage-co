@@ -78,5 +78,6 @@ docker compose down
 
 - Olierse José Atencia Herrera
 - Kevin Uriel Ceferino Orozco
+- Ronaldo Luis Flores Julio
 
 Docente: Alexander Calderón Martínez — Programa de Ingeniería de Sistemas, CUN.
